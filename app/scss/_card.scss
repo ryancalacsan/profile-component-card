@@ -1,0 +1,78 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-width: 326px;
+    max-width: 350px;
+    border-radius: 15px;
+    background-color: $white;
+    margin-left: 25px;
+    margin-right: 25px;
+
+    &__bg {
+        background-image: url(/images/bg-pattern-card.svg);
+        background-size: cover;
+        background-position: center center;
+        height: 140px;
+        width: 100%;
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+    }
+
+    &__img {
+        position: relative;
+        img {
+            position: absolute;
+            width: 96px;
+            height: auto;
+            transform: translate(-50%, -50%);
+            border-radius: 50%;
+            border: 5px solid $white;
+        }
+    }
+
+    &__info {
+        margin-top: 72px;
+    }
+
+    &__name {
+        display: inline-block;
+        font-size: 18px;
+        font-weight: $bold;
+        line-height: 22px;
+    }
+
+    &__age {
+        display: inline-block;
+        line-height: 22px;
+        margin-bottom: 8px;
+    }
+
+    &__city {
+        font-size: 14px;
+        line-height: 17px;
+        margin-bottom: 25px;
+    }
+
+    &__stats {
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        padding-top: 24px;
+        margin-bottom: 24px;
+        border-top: 1px solid $darkGray;
+    }
+    &__statNum {
+        font-size: 18px;
+        font-weight: $bold;
+        margin-bottom: 5px;
+        line-height: 22px;
+    }
+
+    &__statTitle {
+        font-size: 10px;
+        line-height: 12px;
+    }
+}

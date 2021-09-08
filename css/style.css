@@ -1,0 +1,142 @@
+html {
+  font-size: 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0;
+  padding: 0;
+  font-family: "Kumbh Sans", sans-serif;
+  background-color: #19a2ae;
+  height: 100vh;
+  font-size: 18px;
+  font-weight: 400;
+  text-align: center;
+  background-image: url(/images/bg-pattern-top.svg);
+  background-repeat: no-repeat;
+  background-origin: border-box;
+  background-position: 25% 75%;
+}
+
+h1,
+h2,
+h3 {
+  margin: 0;
+  line-height: 1.15;
+}
+
+p {
+  margin: 0;
+}
+
+.card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  min-width: 326px;
+  max-width: 350px;
+  border-radius: 15px;
+  background-color: white;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+.card__bg {
+  background-image: url(/images/bg-pattern-card.svg);
+  background-size: cover;
+  background-position: center center;
+  height: 140px;
+  width: 100%;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.card__img {
+  position: relative;
+}
+
+.card__img img {
+  position: absolute;
+  width: 96px;
+  height: auto;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  border-radius: 50%;
+  border: 5px solid white;
+}
+
+.card__info {
+  margin-top: 72px;
+}
+
+.card__name {
+  display: inline-block;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 22px;
+}
+
+.card__age {
+  display: inline-block;
+  line-height: 22px;
+  margin-bottom: 8px;
+}
+
+.card__city {
+  font-size: 14px;
+  line-height: 17px;
+  margin-bottom: 25px;
+}
+
+.card__stats {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding-top: 24px;
+  margin-bottom: 24px;
+  border-top: 1px solid #969696;
+}
+
+.card__statNum {
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 5px;
+  line-height: 22px;
+}
+
+.card__statTitle {
+  font-size: 10px;
+  line-height: 12px;
+}
+/*# sourceMappingURL=style.css.map */
