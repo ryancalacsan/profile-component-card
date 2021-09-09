@@ -93,7 +93,7 @@ body p {
 
 .card__img img {
   position: absolute;
-  width: 6rem;
+  width: 6.625rem;
   height: auto;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
@@ -110,18 +110,22 @@ body p {
   font-size: 1.125rem;
   font-weight: 700;
   line-height: 1.375rem;
+  color: #2d3248;
+  margin-right: 0.5313rem;
 }
 
 .card__age {
   display: inline-block;
   line-height: 1.375rem;
   margin-bottom: 0.5rem;
+  color: #6a6f81;
 }
 
 .card__city {
   font-size: 0.875rem;
   line-height: 1.0625rem;
   margin-bottom: 1.5625rem;
+  color: #6a6f81;
 }
 
 .card__stats {
@@ -133,7 +137,9 @@ body p {
       justify-content: space-around;
   padding-top: 1.5rem;
   margin-bottom: 1.5rem;
-  border-top: 0.0625rem solid #969696;
+  border-top: 0.0625rem solid #ece9ec;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .card__statNum {
@@ -141,10 +147,12 @@ body p {
   font-weight: 700;
   margin-bottom: 0.3125rem;
   line-height: 1.375rem;
+  color: #2d3248;
 }
 
 .card__statTitle {
   font-size: 0.625rem;
   line-height: 0.75rem;
+  color: #6a6f81;
 }
 /*# sourceMappingURL=style.css.map */
