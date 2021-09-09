@@ -67,8 +67,8 @@
         padding-top: 1.5rem;
         margin-bottom: 1.5rem;
         border-top: 0.0625rem solid $lightGray;
-        padding-left: 10px;
-        padding-right: 10px;
+        padding-left: 0.625rem;
+        padding-right: 0.625rem;
     }
     &__statNum {
         font-size: 1.125rem;
@@ -82,5 +82,6 @@
         font-size: 0.625rem;
         line-height: 0.75rem;
         color: $darkGrayishBlue;
+        letter-spacing: 1.5px;
     }
 }
