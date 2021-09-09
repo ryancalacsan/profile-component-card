@@ -4,28 +4,28 @@
     justify-content: center;
     align-items: center;
     width: 100%;
-    min-width: 326px;
-    max-width: 350px;
-    border-radius: 15px;
+    min-width: 20.375rem;
+    max-width: 21.875rem;
+    border-radius: 0.9375rem;
     background-color: $white;
-    margin-left: 25px;
-    margin-right: 25px;
+    margin-left: 1.5625rem;
+    margin-right: 1.5625rem;
 
     &__bg {
         background-image: url(/images/bg-pattern-card.svg);
         background-size: cover;
         background-position: center center;
-        height: 140px;
+        height: 8.75rem;
         width: 100%;
-        border-top-left-radius: 15px;
-        border-top-right-radius: 15px;
+        border-top-left-radius: 0.9375rem;
+        border-top-right-radius: 0.9375rem;
     }
 
     &__img {
         position: relative;
         img {
             position: absolute;
-            width: 96px;
+            width: 6rem;
             height: auto;
             transform: translate(-50%, -50%);
             border-radius: 50%;
@@ -34,45 +34,45 @@
     }
 
     &__info {
-        margin-top: 72px;
+        margin-top: 4.5rem;
     }
 
     &__name {
         display: inline-block;
-        font-size: 18px;
+        font-size: 1.125rem;
         font-weight: $bold;
-        line-height: 22px;
+        line-height: 1.375rem;
     }
 
     &__age {
         display: inline-block;
-        line-height: 22px;
-        margin-bottom: 8px;
+        line-height: 1.375rem;
+        margin-bottom: 0.5rem;
     }
 
     &__city {
-        font-size: 14px;
-        line-height: 17px;
-        margin-bottom: 25px;
+        font-size: 0.875rem;
+        line-height: 1.0625rem;
+        margin-bottom: 1.5625rem;
     }
 
     &__stats {
         width: 100%;
         display: flex;
         justify-content: space-around;
-        padding-top: 24px;
-        margin-bottom: 24px;
-        border-top: 1px solid $darkGray;
+        padding-top: 1.5rem;
+        margin-bottom: 1.5rem;
+        border-top: 0.0625rem solid $darkGray;
     }
     &__statNum {
-        font-size: 18px;
+        font-size: 1.125rem;
         font-weight: $bold;
-        margin-bottom: 5px;
-        line-height: 22px;
+        margin-bottom: 0.3125rem;
+        line-height: 1.375rem;
     }
 
     &__statTitle {
-        font-size: 10px;
-        line-height: 12px;
+        font-size: 0.625rem;
+        line-height: 0.75rem;
     }
 }

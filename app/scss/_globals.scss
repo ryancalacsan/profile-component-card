@@ -18,25 +18,29 @@ body {
     font-family: "Kumbh Sans", sans-serif;
     background-color: $darkCyan;
     height: 100vh;
-    font-size: 18px;
+    width: 100%;
+    font-size: 1.125rem;
     font-weight: $regular;
     text-align: center;
 
-    background-image: url(/images/bg-pattern-top.svg);
+    background-image: url(/images/bg-pattern-top.svg), url(/images/bg-pattern-bottom.svg);
     background-repeat: no-repeat;
-    // background-position: right 725px bottom 125px;
-    // background-size: 100% auto;
-    background-origin: border-box;
-    background-position: 25% 75%;
-}
+    background-size: 38.875rem auto;
+    background-position: left -25.9375rem top -17.5rem, right -25.3125rem bottom -19.5625rem;
 
-h1,
-h2,
-h3 {
-    margin: 0;
-    line-height: 1.15;
-}
+    @include breakpoint-up(large) {
+        background-size: 61.125rem auto;
+        background-position: left -18.125rem top -31.25rem, right -17.1875rem bottom -37.5rem;
+    }
 
-p {
-    margin: 0;
+    h1,
+    h2,
+    h3 {
+        margin: 0;
+        line-height: 1.15;
+    }
+
+    p {
+        margin: 0;
+    }
 }
